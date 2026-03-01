@@ -32,14 +32,16 @@ export function YouTubePlayer({ onClose }: YouTubePlayerProps) {
           </button>
         </div>
 
-        {/* YouTube embed - starts at 1:04 (64 seconds), autoplay */}
+        {/* YouTube embed - starts at 1:04 (64 seconds), autoplay muted for mobile */}
         <div className="relative w-full overflow-hidden rounded-sm" style={{ paddingBottom: "56.25%" }}>
           <iframe
             className="absolute inset-0 h-full w-full"
-            src="https://www.youtube.com/embed/8xg3vE8Ie_E?start=64&autoplay=1"
+            src="https://www.youtube.com/embed/lEMeFbxUZks?start=64&autoplay=1&mute=1&controls=1&rel=0"
             title="Love Story - Taylor Swift"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen; geolocation"
             allowFullScreen
+            loading="lazy"
+            referrerPolicy="strict-origin-when-cross-origin"
           />
         </div>
 
