@@ -50,12 +50,13 @@ export function RetroMusicPlayer({ onClose }: RetroMusicPlayerProps) {
         <div className="relative mb-4 w-full overflow-hidden rounded-sm border-2 border-border" style={{ paddingBottom: "56.25%" }}>
           <iframe
             className="absolute inset-0 h-full w-full"
-            src="https://www.youtube.com/embed/lEMeFbxUZks?start=64&autoplay=1&mute=1&controls=1&rel=0"
+            src="https://www.youtube.com/embed/lEMeFbxUZks?start=64&autoplay=1&mute=1&controls=1&rel=0&modestbranding=1&fs=1"
             title="Love Story - Taylor Swift"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen; geolocation"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen; geolocation; microphone"
             allowFullScreen
             loading="lazy"
-            referrerPolicy="strict-origin-when-cross-origin"
+            referrerPolicy="no-referrer-when-downgrade"
+            sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"
           />
         </div>
 
