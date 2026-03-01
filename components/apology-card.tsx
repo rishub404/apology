@@ -66,13 +66,13 @@ export function ApologyCard() {
         <div className="flex items-center justify-center gap-6">
           <button
             onClick={handleMaybeYes}
-            className="pixel-border cursor-pointer rounded-sm bg-primary/90 px-8 py-3 text-xl text-primary-foreground transition-all hover:scale-105 hover:bg-primary active:scale-95 md:text-2xl"
+            className="pixel-border cursor-pointer rounded-sm bg-primary/90 px-6 py-3 text-xl text-primary-foreground transition-all hover:scale-105 hover:bg-primary active:scale-95 md:text-2xl whitespace-nowrap"
           >
             {">> maybe yes <<"}
           </button>
           <button
             onClick={handleHellNo}
-            className="pixel-border cursor-pointer rounded-sm bg-secondary px-8 py-3 text-xl text-secondary-foreground transition-all hover:scale-105 hover:bg-accent active:scale-95 md:text-2xl"
+            className="pixel-border cursor-pointer rounded-sm bg-secondary px-6 py-3 text-xl text-secondary-foreground transition-all hover:scale-105 hover:bg-accent active:scale-95 md:text-2xl whitespace-nowrap"
           >
             {">> hell no <<"}
           </button>

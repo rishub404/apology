@@ -1,16 +1,15 @@
 "use client"
 
 import { FloatingStars } from "./floating-stars"
-import { MemoryMarquee } from "./memory-marquee"
 import { ApologyCard } from "./apology-card"
 
 export function ApologyPage() {
   return (
-    <div className="relative flex min-h-screen flex-col items-center overflow-hidden bg-[linear-gradient(135deg,var(--lavender)_0%,var(--cream)_40%,var(--soft-pink)_70%,var(--lavender)_100%)]">
+    <div className="relative flex h-screen flex-col items-center overflow-hidden bg-[linear-gradient(135deg,var(--lavender)_0%,var(--cream)_40%,var(--soft-pink)_70%,var(--lavender)_100%)]">
       <FloatingStars />
 
       {/* Header */}
-      <header className="relative z-10 flex w-full flex-col items-center pt-8 pb-4 md:pt-12">
+      <header className="relative z-10 flex w-full flex-col items-center pt-4 pb-2 md:pt-6">
         <div className="mb-2 flex items-center gap-2" aria-hidden="true">
           <span className="text-2xl text-primary">{"*"}</span>
           <span className="text-xl text-accent">{"~"}</span>
@@ -29,21 +28,13 @@ export function ApologyPage() {
         </div>
       </header>
 
-      {/* Memory Lane Marquee */}
-      <section className="relative z-10 my-6 w-full md:my-8" aria-label="Memory Lane">
-        <p className="mb-2 text-center text-base text-deep-purple/70 md:text-lg">
-          {">> memory lane <<"}
-        </p>
-        <MemoryMarquee />
-      </section>
-
       {/* Central Apology Card */}
-      <main className="relative z-10 flex flex-1 items-center justify-center px-4 py-8 md:py-12">
+      <main className="relative z-10 flex flex-1 items-center justify-center px-4 py-2 md:py-4">
         <ApologyCard />
       </main>
 
       {/* Footer */}
-      <footer className="relative z-10 w-full pb-8 text-center">
+      <footer className="relative z-10 w-full pb-4 text-center">
         <div className="mx-auto flex max-w-xs flex-col items-center gap-2">
           <div className="h-px w-full bg-pixel-border/40" />
           <p className="text-sm text-deep-purple/50">
