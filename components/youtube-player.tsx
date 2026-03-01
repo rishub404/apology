@@ -36,7 +36,7 @@ export function YouTubePlayer({ onClose }: YouTubePlayerProps) {
         <div className="relative w-full overflow-hidden rounded-sm" style={{ paddingBottom: "56.25%" }}>
           <iframe
             className="absolute inset-0 h-full w-full"
-            src="https://www.youtube-nocookie.com/embed/lEMeFbxUZks?start=64&autoplay=1&mute=1&controls=1&rel=0&modestbranding=1"
+            src="https://www.youtube-nocookie.com/embed/FMnPy3JiVuE?start=64&autoplay=1&mute=1&controls=1&rel=0&modestbranding=1"
             title="Love Story - Taylor Swift"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
             allowFullScreen
