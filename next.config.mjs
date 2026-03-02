@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/apology',
+  basePath: '',
   typescript: {
     ignoreBuildErrors: true,
   },
