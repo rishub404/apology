@@ -46,7 +46,7 @@ export function RetroMusicPlayer({ onClose }: RetroMusicPlayerProps) {
           </div>
         </div>
 
-        {/* YouTube embed - starts at 1:04 (64 seconds), autoplay muted for mobile */}
+        {/* YouTube embed - starts at 1:04 (64 seconds)*/}
         <div className="relative mb-4 w-full overflow-hidden rounded-sm border-2 border-border" style={{ paddingBottom: "56.25%" }}>
           <iframe
             className="absolute inset-0 h-full w-full"
@@ -62,7 +62,7 @@ export function RetroMusicPlayer({ onClose }: RetroMusicPlayerProps) {
         {/* Heartfelt message */}
         <div className="pixel-border w-full rounded-sm bg-cream/60 p-4">
           <p className="text-lg leading-relaxed text-deep-purple md:text-xl">
-            {'"'}Romeo take me somewhere we can be alone...{'"'}
+            {'"'}Marry me, Juliet, you'll never have to be alone...{'"'}
           </p>
           <div className="my-3 h-px w-full bg-border" />
           <p className="text-base leading-relaxed text-deep-purple/80 md:text-lg">
